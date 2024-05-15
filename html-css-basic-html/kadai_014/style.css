@@ -1,0 +1,24 @@
+html{
+    font-size: 20px;
+}
+body{
+    font-family: "Arial", "YuGothic", sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+h1{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 2em;
+    letter-spacing: 1.2em;
+    text-shadow: 3px 3px 2px yellow;   
+    border-bottom: solid 3px rgb(115, 115, 114);
+}
+.decoration{
+    color: skyblue;
+}
+.decorationp{
+    color: rgb(255, 192, 203)
+}
+#parent p{
+    font-weight: bold;
+}
