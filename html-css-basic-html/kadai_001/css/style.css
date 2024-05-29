@@ -1,0 +1,70 @@
+/* PC、スマホ共通スタイル */
+body {
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #000000;
+    background-color: #ffffff;
+    max-width: 1200px;
+  }
+  
+ul {
+    font-size: 34px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    border-color: gray;
+}
+
+.MP {
+    border: solid 2px gray;
+    
+}
+
+.AB {
+    padding: 10px;
+
+}
+
+.WO {
+    padding: 10px;
+
+}
+
+
+a {
+    text-decoration: none;
+    
+}
+
+h2 {
+    font-size: 34px;
+    text-align: center;
+
+}
+
+main > img {
+    height: 400px;
+    width: 100%;
+}
+
+h3 {
+    font-size: 24px;
+
+}
+
+p {
+    font-size: 18px;
+
+}
+/*================
+スマートフォン用のスタイル
+=================*/
+@media screen and (max-width: 767px) {
+/* ナビゲーションのリンクの装飾設定 */
+#nav-pc li {
+    margin: 0 10px;
+  }
+}
