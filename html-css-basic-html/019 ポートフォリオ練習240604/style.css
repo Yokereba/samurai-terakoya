@@ -1,0 +1,48 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 18px;
+}
+
+.header-innner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;  
+    margin: 20px auto;
+    max-width: 960px;
+}
+
+.header-innner a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+h1 {
+    margin: 0 0 0 20px;
+    font-size: 34px;
+    border: 1px solid black;
+    padding: 0px 20px;
+
+}
+
+.home {
+    text-decoration: none;
+}
+
+nav .menu {
+    display: flex;
+    padding-left: 0;
+}
+
+nav li {
+    margin: 0 5px;
+    list-style: none;
+}
+
+nav a {
+    font-size: 34px;
+    
+}
