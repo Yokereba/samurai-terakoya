@@ -1,0 +1,101 @@
+body {
+    font-size: 18px;
+    font-family: "Noto Sans JP", sans-serif;
+    max-width: 960;
+    color: #000;
+}
+
+h1 {
+    font-size: 34px;
+    font-weight: bold;
+    border: 1px solid #000;
+    text-decoration: none;
+    padding: 0 20px 5px;
+
+}
+.header-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+nav {
+    text-decoration: none;
+}
+nav a {
+    padding: 0 5px;
+}
+
+.mainpic {
+    max-width: 960px;
+
+}
+
+h2 {
+    font-size: 34px;
+    text-align: center;
+}
+
+
+.about-inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto 20px;
+    width :960px
+
+}
+.circle {
+    border-radius: 50%;
+    height: 280px;
+    width: 280px;
+}
+.name {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.item {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto 20px;
+    width :25%
+
+}
+
+footer {
+    text-align: center;
+
+}
+
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 28;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    nav a {
+        font-size: 21px;
+    }
+
+    .item {
+        width: 100%;
+    }
+
+    .mainpic {
+        width: 100%;
+    
+    }
+    
+    .about-inner {
+        display: block;
+        margin: 20px auto 20px;s
+    
+    }
+}
