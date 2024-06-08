@@ -1,0 +1,128 @@
+body {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 18px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: antiquewhite; */
+    margin: 0 20px;
+}
+
+h1 a {
+    font-size: 34px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 0 10px;
+}
+
+nav a {
+    font-size: 34px;
+    /* background-color: beige; */
+    padding: 0 20px;
+    text-decoration:none;
+    color: black;
+}
+
+
+.mainpic {
+    width: 100%;
+    margin: 10px auto;
+
+}
+
+#works {
+    margin: 20px;
+    /* background-color: azure; */
+}
+
+h2 {
+    text-align: center;
+    font-size: 34px;
+}
+
+
+.about-inner {
+    /* background-color: antiquewhite; */
+    display: flex;
+    margin: 0 auto;
+    max-width: 860px;
+}
+
+.about-right {
+    margin-left: 30px;
+}
+
+.name {
+    font-size: 24px;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.works-inner {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+    margin: 0 auto;
+
+}
+
+.item {
+    width: 30%;
+    /* background-color: antiquewhite; */
+    text-align: center;
+    margin: 0 10px;
+    
+    
+}
+
+.item img {
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 60px;
+    
+}
+
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 28;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    nav a {
+        font-size: 21px;
+    }
+
+    .item {
+        width: 100%;
+    }
+
+    .mainpic {
+        width: 100%;
+    
+    }
+    
+
+    .about-inner {
+        display: block;
+        margin: 20px auto 20px;
+        text-align: center;
+    }
+
+    .works-inner {
+        display: block;
+        width: 100%;
+    }
+}
