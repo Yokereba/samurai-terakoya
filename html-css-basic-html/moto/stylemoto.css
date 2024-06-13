@@ -1,0 +1,60 @@
+/*================
+ PC、スマホ共通スタイル
+=================*/
+* {
+    box-sizing: border-box;
+  }
+body {
+  max-width: 1080px;
+  font-family: ""Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif";
+  font-size: 15px;
+  margin: 0 auto 0 auto;
+}
+  
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*    nav Layout    */
+
+/*    nav link deco */
+
+
+/*    main visual */
+
+
+/*      Midashi   */
+h2 {
+  margin: 40px 0 0 0;
+}
+
+h2::after{
+  content: url('images/line.png');
+  margin-left: 10px;
+}
+
+h3 {
+  font-size: 27px;
+}
+
+
+/* footer */
+footer {
+
+}
+
+#copyright {
+  color: white;
+  float: roght;
+}
+
+
+/*================
+ for smartphone
+=================*/
+@media screen and(max-width:767px){
+  /* nav rink deco */
+  
+}  
