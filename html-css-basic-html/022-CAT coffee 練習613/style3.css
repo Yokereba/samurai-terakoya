@@ -1,0 +1,151 @@
+/*================
+ PC、スマホ共通スタイル
+=================*/
+* {
+  box-sizing: border-box;
+}
+body {
+max-width: 1080px;
+font-family: ""Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif";
+font-size: 15px;
+margin: 0 auto 0 auto;
+}
+
+/* HEADER */
+header {
+display: flex;
+justify-content: space-between;
+/* background-color: bisque; */
+align-items: center;
+}
+
+/*    nav Layout    */
+#nav-logo {
+  margin-left:50px ;
+}
+
+/*    nav link deco */
+#nav-pc{
+  /* background-color: aqua; */
+  color: #04414a;
+  text-align: right;
+  font-size: 14px;
+  padding-top: 15px;  
+}
+
+#nav-pc  ul {
+  display: flex;
+  padding-left: 0;
+  /* background-color: aqua; */
+  justify-content: space-around;
+}
+
+#nav-pc  a {
+  color: #04414a;
+  text-decoration: none;
+}
+
+#nav-pc a:hover {
+  text-decoration: underline;
+}
+
+#nav-pc li {
+  list-style: none;
+  margin-left: 20px;
+ 
+}
+
+
+
+
+/*    main visual */
+#main-visual{
+  position: relative;
+  height: 400px;
+
+}
+
+#main-left{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  border-radius: 0 0 150px 0;
+  background-color: #04414a;
+  color: #fff;
+  max-width: 620px;
+  width: 100%;
+  z-index: 11;
+
+}
+
+#main-left > h1 {
+  font-size: 60px;
+  font-weight: bold;
+  margin: 100px 0 0 50px;
+}
+
+#main-left > p {
+  font-size: 28px;
+  margin: 0 0 0 50px;
+}
+
+#main-visual > img {
+  max-width: 600px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
+}
+/*      Midashi   */
+h2 {
+margin: 40px 0 0 0;
+}
+
+h2::after{
+content: url('images/line.png');
+margin-left: 10px;
+}
+
+h3 {
+font-size: 27px;
+}
+
+/* COnCEPT */
+#concept {
+  margin: 80px auto 0 auto;
+  padding: 10px 40px 0px 40px;
+}
+
+#concept-flex{
+  display: flex;
+  text-align: center;
+}
+
+
+#concept-flex > div {
+  width: 50%;
+  margin: 20px;
+}
+.concept-photo {
+  width: 80%;
+}
+
+/* footer */
+/* footer {
+
+} */
+
+#copyright {
+color: white;
+float: roght;
+}
+
+
+/*================
+for smartphone
+=================*/
+@media screen and(max-width:767px){
+/* nav rink deco */
+
+} 
