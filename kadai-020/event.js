@@ -8,7 +8,9 @@ const btn = document.getElementById('btn');
 //     parentList.appendChild(childList);
 // });
 
-document.getElementById("btn").onclick = function() {
+const textChange =document.getElementById('text');
+
+btn.addEventListener('click', () => {
     document.getElementById("text").innerHTML = "ボタンをクリックしました"
-    }
+});
     
