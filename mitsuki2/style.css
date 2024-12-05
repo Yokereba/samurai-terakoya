@@ -1,0 +1,400 @@
+
+@charset "UTF-8";
+
+body {
+  
+  /* padding: 0 4%; */
+  margin: 0 auto;
+  background-color: #F3EEE5;
+  font-family: "Times New Roman", "Yu Mincho", YuMincho, "Hiragino Mincho ProN", "HG明朝E", "MS PMincho", "MS Mincho", serif;
+}
+img {
+  width: 100%;
+}
+
+h1 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ul li{ */
+  /* list-style: none; */
+/* } */
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+
+/* headder */
+#header {
+  display: flex;
+  /* margin-top: 20px; */
+  justify-content: space-between;
+  margin: 20px 40px;
+}
+
+#header img {
+  width: 65px;
+}
+.inner-right {
+  text-align: right;
+}     
+.header-button {
+  justify-content: right;
+}
+
+
+#header .header-logo{
+  width: 40px;
+}
+.header-button {
+  display: flex;
+}
+
+.header-address {
+font-size: 14px;
+margin: 10px 0;
+}
+
+.button-outer-left {
+  border: #fff 1px solid;
+  width: 200px;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  margin-left: 20px;
+  /* border: double 5px #fff; */
+  background-color: #F44D3B;
+
+}
+.button-outer-right {
+  border: #fff 1px solid;
+  width: 200px;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  margin-left: 20px;
+  /* border: double 5px #fff; */
+  background-color: #9D8740;
+
+}
+
+
+
+.button {
+  border: #fff 1px solid;
+  /* width: 200px; */
+  padding: 14px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  margin-left: 20px;
+  /* border: double 5px #fff; */
+  /* background-color: #F44D3B; */
+
+
+  /* border: 1px solid #000;    	 */
+  margin: -5px;            	/* 外側の線の場所をつくる */
+	position: relative;        	/* 外側の線の場所を調整する時の基準点になるようにする    */
+
+
+
+
+}
+
+
+
+
+.header-navi {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  /* margin: 20px 10px; */
+}
+
+.header-navi a {
+  margin: 10px 10px;
+}
+ 
+#header .header-navi img {
+  width: 18px;
+  height: 18px;
+}
+
+/* mainvisual */
+#mainvisual {
+  position: relative;
+
+}
+
+/* #mainvisual .main-message {
+  position: absolute;
+  left: 0px;
+} */
+
+#mainvisual .main-logo {
+  position: absolute;
+  left: 0px;
+  max-height: 100%;
+}
+
+
+/* information */
+#information {
+  display: flex;
+  margin-top: 100px;
+  /* height: 200px; */
+
+}
+.information-left {
+  display: flex;
+  align-items: center;
+  width: 25%; 
+  height: 80px; 
+  /* border: 1px #999999 solid;  */
+  background-color: #EBE3D9;
+  font-size: 24px;
+}
+
+.information-left p {
+  text-align: center;
+  align-items: center;
+  width: 100%;
+}
+
+.information-right {
+  width: 75%; 
+  height: 80px; 
+  overflow-y: scroll; 
+  /* border: 1px #999999 solid; */
+}
+
+.information-right dl {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.information-right dt {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  /* padding-bottom: 20px; */
+  /* margin-bottom: 10px; */
+  /* background-color: #DADADA; */
+  border-top: 1px solid #d2d2d2;
+}
+
+.information-right dd {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  margin-left: 0;
+  /* padding-bottom: 20px; */
+  /* background-color: #F3F3F3; */
+  /* margin-bottom: 10px; */
+  border-top: 1px solid #d2d2d2;
+  height: 40px;
+  /* align-items: center; */
+  /* text-align: center; */
+}
+
+/* goaisatsu */
+#goaisatsu {
+ margin-top: 100px;
+}
+
+#goaisatsu img {
+  height: 300px;
+  object-fit: cover;
+}
+
+
+.goaisatsu-bg {
+  position: relative;
+  height: 100px;
+}
+
+.goaisatsu-text{
+  position: absolute;
+  width: 800px;
+  top: 210px;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  /* bottom: ; */
+  /* left: auto; */
+  background-color: #fff;
+}
+
+.goaisatsu-text h1{
+  text-align: center;
+  margin: 75px auto;
+}
+
+.underline h1{
+  position: absolute;
+  width: 30px;
+  top: 210px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin : 75px auto;
+  padding-bottom: 20px;
+  border-bottom: #CEBD85 solid 1px;
+}
+
+.goaisatsu-text p{
+  text-align: center;
+}
+
+#goaisatsu .goaisatsu-h1-logo img {
+  position: absolute;
+  top: 270px;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  width: 60px;
+  height: 60px;
+}
+.goaisatsu-button {
+  border: #fff 1px solid;
+  width: 230px;
+  padding: 14px;
+  text-align: center;
+  font-size: 17px;
+  color: #fff;
+
+  margin: 50px auto;
+  /* border: double 5px #fff; */
+  background-color: #AA9244;
+
+  /* border: 1px solid #000;    	 */
+  /* margin: -5px;            	外側の線の場所をつくる */
+	position: relative;        	/* 外側の線の場所を調整する時の基準点になるようにする    */
+  z-index: 5;
+}
+
+
+.yajirushi {
+  position: absolute;
+  top: 10px;
+
+  right:20px;
+  z-index: 10;
+}
+#goaisatsu .yajirushi img{
+
+  width: 30px;
+  height: 30px;
+}
+/* contents */
+
+#contents {
+  margin-top: 800px;
+
+}
+.contents-leftright {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  text-align: center ;
+
+}
+
+ .contents-wrap {
+  width: 49%;
+  position: relative;}
+
+  .contents-oshinagaki-img { */
+
+
+ }
+.contents-wrap p {
+  font-size: 14px;
+  text-align: center ;
+} 
+
+ .contents-title {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  color: #fff;
+  font-size: 25px;
+}
+
+.contents-yajirushi {
+  position: absolute;
+  bottom: 110px;
+  right: 10px;
+  width: 50px;
+  height: 5dvb0px;
+} 
+
+.contents-wrap {
+  width: 49%;
+  position: relative;
+}
+/* .contents-oshinagaki{
+  position: relative;
+} */
+ .contents-wrap p{
+  font-size: 14px;
+  text-align: center ;
+} 
+
+.contents-title {
+ position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  color: #fff;
+  font-size: 25px;
+}
+
+/* shun    */
+#shun {
+  margin-top: 70px;
+  position: ;
+}
+
+#shun img {
+  height: 600px;
+  /* height: 140%; */
+  object-fit: cover;
+
+}
+
+/* footer */
+.copyright {
+  text-align: center;
+}
+
+#footer p {
+  font-size: 0.5rem;
+}
+
+/************************
+ レスポンシブ
+ ************************/
+ /* ブレークポイントは600pxです。
+ 
+ @media screen and (max-width: 600px) {
+
+
+
+ }
+ 
